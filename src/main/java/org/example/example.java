@@ -12,7 +12,6 @@ public class example {
             page.navigate("http://playwright.dev");
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("example.png")));
             System.out.println(page.title());
-
         }
     }
 }
