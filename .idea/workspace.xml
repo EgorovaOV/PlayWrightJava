@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="открыли страницу и сделали скрин">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExamplePlaywrightHeadless.java" afterDir="false" />
+    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили пример headless">
+      <change afterPath="$PROJECT_DIR$/src/test/java/java/Constsnts/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/main/java/org/example",
+    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729923144584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавили пример headless">
+      <option name="closed" value="true" />
+      <created>1729965398089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729965398089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +166,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>
@@ -170,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="открыли страницу и сделали скрин" />
-    <option name="LAST_COMMIT_MESSAGE" value="открыли страницу и сделали скрин" />
+    <MESSAGE value="добавили пример headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили пример headless" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
