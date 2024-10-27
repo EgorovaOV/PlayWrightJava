@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили пример headless">
-      <change afterPath="$PROJECT_DIR$/src/test/java/java/Constsnts/Constants.java" afterDir="false" />
+    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили константы в файл для бьюти">
+      <change afterPath="$PROJECT_DIR$/src/test/java/java/Beauty/waitForElementExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/test/java",
+    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/test/java/java",
     "onboarding.tips.debug.path": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -55,6 +55,11 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ExamplePlaywrightHeadless">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
@@ -155,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729965398089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавили константы в файл для бьюти">
+      <option name="closed" value="true" />
+      <created>1730009809266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730009809266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="открыли страницу и сделали скрин" />
     <MESSAGE value="добавили пример headless" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили пример headless" />
+    <MESSAGE value="добавили константы в файл для бьюти" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили константы в файл для бьюти" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
