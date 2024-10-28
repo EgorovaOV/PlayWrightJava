@@ -1,4 +1,4 @@
-package java.Constsnts;
+package Constsnts;
 
 public class Constants {
     //переменная, метод или класс не могут быть изменены после их инициализации

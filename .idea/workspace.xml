@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили константы в файл для бьюти">
-      <change afterPath="$PROJECT_DIR$/src/test/java/java/Beauty/waitForElementExist.java" afterDir="false" />
+    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили метод, который принимает адрес и локатор и проверяет видимость элемента">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Beauty/TestForMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Beauty/waitForElementExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/Beauty/waitForElementExist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/Constsnts/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constsnts/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.Beauty.TestForMainPage.executor": "Run",
     "Application.ExamplePlaywrightHeadless.executor": "Run",
+    "Application.TestForMainPage.executor": "Debug",
     "Application.example.executor": "Run",
     "Application.exampletest.executor": "Run",
     "Application.org.example.example.executor": "Run",
@@ -47,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/test/java/java",
+    "last_directory_selection": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/test/java",
     "onboarding.tips.debug.path": "C:/Users/EgorovaOV/IdeaProjects/PlayWrightJava/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -60,10 +65,16 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExamplePlaywrightHeadless">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+  <component name="RunManager" selected="Application.Beauty.TestForMainPage">
+    <configuration name="Beauty.TestForMainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beauty.TestForMainPage" />
       <module name="PlayWrightJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Beauty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,9 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example" />
+    <configuration name="TestForMainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Beauty.TestForMainPage" />
       <module name="PlayWrightJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.Beauty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beauty.TestForMainPage" />
+        <item itemvalue="Application.TestForMainPage" />
         <item itemvalue="Application.ExamplePlaywrightHeadless" />
         <item itemvalue="Application.org.example.example" />
         <item itemvalue="Application.exampletest" />
-        <item itemvalue="Application.example" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730009809266</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="добавили метод, который принимает адрес и локатор и проверяет видимость элемента">
+      <option name="closed" value="true" />
+      <created>1730014462811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730014462811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +217,8 @@
     <MESSAGE value="открыли страницу и сделали скрин" />
     <MESSAGE value="добавили пример headless" />
     <MESSAGE value="добавили константы в файл для бьюти" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили константы в файл для бьюти" />
+    <MESSAGE value="добавили метод, который принимает адрес и локатор и проверяет видимость элемента" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили метод, который принимает адрес и локатор и проверяет видимость элемента" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
