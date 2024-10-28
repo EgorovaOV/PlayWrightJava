@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили метод, который принимает адрес и локатор и проверяет видимость элемента">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Beauty/TestForMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Beauty/waitForElementExist.java" afterDir="false" />
+    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="применили в тесте метод, который принимает адрес и локатор и проверяет видимость элемента">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/Beauty/waitForElementExist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/Constsnts/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constsnts/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Beauty/TestForMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Beauty/TestForMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Beauty/waitForElementExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Beauty/waitForElementExist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730014462811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="применили в тесте метод, который принимает адрес и локатор и проверяет видимость элемента">
+      <option name="closed" value="true" />
+      <created>1730122265985</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730122265985</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +225,8 @@
     <MESSAGE value="добавили пример headless" />
     <MESSAGE value="добавили константы в файл для бьюти" />
     <MESSAGE value="добавили метод, который принимает адрес и локатор и проверяет видимость элемента" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили метод, который принимает адрес и локатор и проверяет видимость элемента" />
+    <MESSAGE value="применили в тесте метод, который принимает адрес и локатор и проверяет видимость элемента" />
+    <option name="LAST_COMMIT_MESSAGE" value="применили в тесте метод, который принимает адрес и локатор и проверяет видимость элемента" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

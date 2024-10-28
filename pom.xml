@@ -19,6 +19,7 @@
             <artifactId>playwright</artifactId>
             <version>1.48.0</version> <!-- Убедитесь, что используете последнюю стабильную версию -->
         </dependency>
+
     </dependencies>
     <build>
         <plugins>

@@ -11,8 +11,28 @@ public class waitForElementExist {
 
 
     public static boolean isElementVisible(Page page, String locator) {
+        try {
+            Locator element = page.locator(locator);
 
-       Locator element =  page.locator(locator);
-        return element.isVisible();
+            // Проверяем, доступен ли элемент
+            if (element.count() == 0) {
+                throw new RuntimeException("Элемент с локатором '" + locator + "' не найден.");
+            }
+
+            // Проверяем видимость элемента
+            boolean isVisible = element.isVisible();
+            if (!isVisible) {
+                throw new RuntimeException("Элемент с локатором '" + locator + "' не является видимым.");
+            }
+
+            return true; // Если элемент найден и видим, вернем true
+        } catch (RuntimeException e) {
+            System.out.println("Ошибка: " + e.getMessage());
+            return false; // Возвращаем false при ошибке
+        } catch (Exception e) {
+            System.out.println("Общая ошибка: " + e.getMessage());
+            return false; // Возвращаем false при прочих ошибках
+        }
     }
-}
+    }
+
