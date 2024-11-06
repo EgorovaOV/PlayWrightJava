@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="добавили в метод обработку ошибок">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/FL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Family.java" afterDir="false" />
+    <list default="true" id="55e66f13-4186-4998-932b-ed91aec5818c" name="Changes" comment="начинаем нииди">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/CalculationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/FL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/FL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
@@ -62,6 +66,11 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -213,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730132383776</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="начинаем нииди">
+      <option name="closed" value="true" />
+      <created>1730613436854</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730613436854</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +257,8 @@
     <MESSAGE value="добавили метод, который принимает адрес и локатор и проверяет видимость элемента" />
     <MESSAGE value="применили в тесте метод, который принимает адрес и локатор и проверяет видимость элемента" />
     <MESSAGE value="добавили в метод обработку ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавили в метод обработку ошибок" />
+    <MESSAGE value="начинаем нииди" />
+    <option name="LAST_COMMIT_MESSAGE" value="начинаем нииди" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,6 +267,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObject/CalculationDetails.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
